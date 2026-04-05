@@ -20,6 +20,7 @@ from .errors import (
     ServerOfflineError,
     InvalidServerKeyError,
 )
+from webhook_handler import WebhookHandler
 
 __all__ = [
     "PythonPRC",
@@ -41,4 +42,5 @@ __all__ = [
     "RateLimitError",
     "ServerOfflineError",
     "InvalidServerKeyError",
+    "WebhookHandler"
 ]
